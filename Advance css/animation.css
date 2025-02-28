@@ -1,0 +1,41 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: #cdb4db;
+    border: 2px solid black;
+    border-radius:50%;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    /* animation-name: ColorAnimate; */
+    /* animation-name: positionAnimate;
+    animation-duration: 5s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    /* animation: Name duration timing-function delay iteratio-count direction */
+    animation: ColorPositionAnime 5s ease-in 1s infinite alternate;
+}
+/* @keyframes ColorAnimate{
+    from {background-color: blue;}
+    to {background-color: chocolate;}
+} */
+/* @keyframes positionAnimate{
+    from{left:0px; }
+    to{left:200px;}
+} */
+@keyframes ColorPositionAnime{
+    0%{
+        left: 0px;
+        background-color: aqua;
+    }
+    50%{
+        background-color: #cdb4db;
+    }
+    100%{
+        left: 200px;
+        background-color: blueviolet;
+        color: white;
+    }
+}

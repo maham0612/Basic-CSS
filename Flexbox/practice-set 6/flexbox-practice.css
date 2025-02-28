@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: pink;
+    /*MAke them in a line*/
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+#outer{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: plum;
+}

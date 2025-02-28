@@ -1,0 +1,39 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    background-color: rgba(255, 0, 0, 0.5 );
+    position:static; /*By default. Top, bottom, left, right, z-index can't be applied */
+    background-image: url(wallpaper.jpg);
+    background-size:contain;
+    color: white;
+}
+#box2{
+    background-color: #ffafcc;
+    position: relative; /*Change according to it's own position*/
+    top: 20px;
+    left: 20px;
+}
+#box3{
+    background-color: #edafb8;
+    position:absolute; /*Change according to it's ancestor position */
+    top: 30px;
+    right: 30px;
+    z-index: 1;
+}
+#box4{
+    background-color: #fb6f92;
+    position: fixed; /*Always fixed even while scrolling. Change according to browser */
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+}
+#box5{
+    background-color: #cdb4db;
+    position: sticky; /*positioned based on the user's scroll position (fix) */
+    top: 50px;
+}

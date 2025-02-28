@@ -1,0 +1,24 @@
+div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    line-height: 100px;
+    text-align: center;
+    /* display: inline;
+     If a box is a "block element" & changing its "display to block to inline" then we can't set it's "top or bottom margin & it's width & height". TO change it's properties we have to set it to the "inline-block" */
+    display: inline-block;
+}
+#Box1{
+    background-color: rgba(255, 0, 0, 0.6);
+    /* display: none;  */
+    /*To remove element from document flow. Space for the element will not be reserved*/
+}
+#Box2{
+    background-color: rgba(255, 255, 0, 0.7);
+    /* visibility: hidden;  */
+    /*To remove element from document flow. Space for the element will be reserved*/
+}
+#Box3{
+    background-color: rgba(0, 255, 0, 0.5);
+}

@@ -1,0 +1,24 @@
+*{
+    color:pink;
+} 
+body{
+    background-color: #ffd6ff;
+}
+h1{
+    color:#fb6f92;
+}
+p{
+    color:#e35a7c;
+}
+button{
+    color:aliceblue;
+    background-color:#fb6f92;
+}
+/* class */
+.selectorclass{
+    color :blueviolet;
+}
+/* ID */
+#selectorid{
+    color:brown;
+}

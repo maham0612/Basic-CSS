@@ -1,0 +1,28 @@
+h1{
+    height: 100px;
+    width: 200px;
+    background-color: palevioletred;
+    text-align: center;
+    border: 3px solid brown; /*Shortcut width, style, color*/
+}
+div{
+    height: 50px;
+    width: 120px;
+    background-color:palevioletred;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 8px; /*Round the corner of an element*/
+    text-align:right;
+    
+}
+#circle{
+    /* To make cirlce the box should be in square form */
+    height: 100px;
+    width: 100pxx;
+    border:2px solid brown;
+    border-radius:50%;
+    background-color: aqua;
+    text-align: center;
+    padding: 50px;
+}

@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#container{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    /* flex-direction is only applicable in flex container */
+    /* left to right */
+    flex-direction:row;
+    /*center according to the main axis*/
+    /*Only direction will be change not sequence. In space-arround the space between border & 1st element is halfed & same for border & last element  */
+justify-content:center; 
+    /*wrap property is used to check wheter the flex container allow items to wrap into multiple lines when there is not enough space. flex-wrap creates space */
+    /* flex-wrap:wrap ;  */
+    /*center according to cross axis.*/
+align-items:flex-start; 
+/*Control space created by "flex-wrap*/
+    /* align-content:flex-start;  */
+    /*Right to left*/
+    /* flex-direction:row-reverse;  */
+    /* top to bottom*/
+    /* flex-direction: column; */
+    /* bottom to top */
+    /* flex-direction: column-reverse; */
+}
+#box1{
+    background-color: #ffafcc;
+    /* flex-grow: 1; */
+}
+#box2{
+    background-color: #edafb8;
+    height: 200px;
+    /* align-self: flex-end; */
+}
+#box3{
+    background-color: #fb6f92;
+    height: 75px;
+    /* flex-grow: 2; */
+}
+#box4{
+    background-color: #cdb4db;
+    flex-shrink: 2;
+}
+#box5{
+    background-color: #be95c4;
+    /*has high priority*/
+    /* align-self:self-end;  */
+}

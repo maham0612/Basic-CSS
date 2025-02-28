@@ -1,0 +1,67 @@
+/* Properties use in this
+   1) text-align
+   2) text-decoration
+   3) font-weight
+   4) fornt-family
+   5) font-size
+   6) line-height
+   7) text-transformation */
+
+
+h1{
+    text-align: center;
+    text-decoration:red dotted underline;
+    color :blue;
+    /* text-align : right 
+    text-align : left 
+    text-align : start 
+    text-align : end */
+}
+#text-Justify{
+    text-align: justify;
+    font-family: serif;
+}
+/* Justify gives proper spacing from left to right. It works by giving equal spacing between words.  */
+/* start = left & end = right */
+#text-center{
+    text-align: center;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size:10px;
+}
+
+#h1{
+    font-weight: bold;
+    /* font-weight: 700; */
+    text-transform: lowercase;
+}
+#h2{
+    font-weight: bolder;
+    /* font-weight = 900 */
+}
+#h3{
+    font-weight: lighter;
+    /* font-weight: 250; */
+    text-transform: capitalize;
+}
+#h4{
+    font-weight: normal;
+    /* font-weight = 400 */
+    font-size: 25px;
+}
+/* We can also give them numbers from 100-900. font-weight > 400 = bold,  font-weight < 400 = light
+font-wegight = 400 (normal)  */
+
+#line-space{
+    line-height: 50px; /* is use to give space between lines*/
+    text-transform: capitalize;
+}
+
+#parent{
+    text-transform: capitalize;
+}
+#child{
+    text-transform: inherit; /*The element will inherit the text-transform property from its parent.*/
+}
+span{
+    text-transform: unset; /* Acts like inherit if possible, otherwise resets (initial).*/
+}

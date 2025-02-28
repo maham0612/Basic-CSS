@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding:0px;
+    color: white;
+}
+#Navbar{
+    background-color: #0f1111;
+    height: 60px;
+}
+#amazon-logo{
+    color: #f08804;
+    font-size: 25px;
+}
+#search{
+    background-color: #f08804;
+    
+}
+a{
+    margin-right: 190px;
+}

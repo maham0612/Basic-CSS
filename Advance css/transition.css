@@ -1,0 +1,41 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: #cdb4db;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    /* ease-in - specifies a transition effect with a slow start. ease-out - specifies a transition effect with a slow end. */
+    transition-timing-function:ease-in-out;
+    transition-delay: 1s;
+    /* Shortcut (property | duration | timing-function |delay ) */
+/* transition: all 2s ease-in-out 1s; */
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    transform: rotate(360deg);
+}
+div:hover{
+    background-color: rgb(69, 143, 227);
+    color: white;
+    font-size: 20px;
+    /* Move Along x & y axis*/
+    transform :translateY(100px); 
+    /* transform: translate(100px , 100px) */
+    transform: skew(90deg);
+}
+div:active{
+    background-color: cadetblue;
+    font-size: 20px;
+}
+button{
+    background-color: rgb(245, 83, 196);
+    color: white;
+    transition: all 1s linear;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+}
+button:hover{
+    transform: scale(1.125);
+}
