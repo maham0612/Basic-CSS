@@ -142,6 +142,10 @@
 }
 .hero-msg a{
     color: #007185;
+    text-decoration: none;
+}
+.hero-msg a:hover{
+    text-decoration: underline;
 }
 /* Shop section */
 .shop-section{
